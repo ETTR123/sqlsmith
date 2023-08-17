@@ -5,6 +5,10 @@ set (CMAKE_CXX_STANDARD 11)
 
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_SOURCE_DIR}/cmake/")
 
+
+# For Debuger
+set(CMAKE_CXX_FLAGS "-g")
+
 set(SOURCES relmodel.cc schema.cc 
 	random.cc prod.cc expr.cc grammar.cc 
 	log.cc dump.cc impedance.cc	
